@@ -1,3 +1,10 @@
+import PageHeader from "@/components/page-header";
+
 export default function DashboardPage() {
-  return <h1>Dashboard YO</h1>;
+  return (
+    <PageHeader
+      title="Dashboard"
+      description="Your Mission Control overview."
+    />
+  );
 }

@@ -1,3 +1,10 @@
+import PageHeader from "@/components/page-header";
+
 export default function FocusPage() {
-  return <h1>Focus</h1>;
+  return (
+    <PageHeader
+      title="Focus"
+      description="Lock in on one task and complete focused work."
+    />
+  );
 }

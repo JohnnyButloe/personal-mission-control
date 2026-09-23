@@ -1,3 +1,10 @@
+import PageHeader from "@/components/page-header";
+
 export default function GoalsPage() {
-  return <h1>Goals</h1>;
+  return (
+    <PageHeader
+      title="Goals"
+      description="Define and track long-term objectives."
+    />
+  );
 }
