@@ -1,4 +1,5 @@
 import type { FocusSession, Goal, Project, Task } from "@/types/domain";
+import type { DashboardSummary } from "@/types/dashboard";
 
 export const goals: Goal[] = [
   {
@@ -148,3 +149,12 @@ export const focusSessions: FocusSession[] = [
     completedAt: "2026-09-25T23:00:00.000Z",
   },
 ];
+
+export const dashboardSummary: DashboardSummary = {
+  focusMinutesToday: 100,
+  currentStreakDays: 8,
+  focusMinutesThisWeek: 520,
+  sessionsThisWeek: 11,
+  tasksCompletedThisWeek: 18,
+  goalsAdvancedThisWeek: 3,
+};

@@ -12,7 +12,7 @@ export default function SectionHeader({
   action,
 }: SectionHeaderProps) {
   return (
-    <div className="flex itmems-start justify-between gap-4">
+    <div className="flex items-start justify-between gap-4">
       <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
 
       {description && (
