@@ -1,6 +1,7 @@
 export type ProgressStatus = "active" | "completed" | "paused";
 export type TaskPriority = "low" | "medium" | "high";
 export type TaskStatus = "not-started" | "in-progress" | "completed";
+export type TasksPlanningBucket = "today" | "upcoming";
 
 export type Goal = {
   id: string;
@@ -26,6 +27,7 @@ export type Task = {
   completed: boolean;
   priority: TaskPriority;
   status: TaskStatus;
+  planningBucket?: TasksPlanningBucket;
 };
 
 export type FocusSession = {

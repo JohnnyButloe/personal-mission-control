@@ -90,6 +90,7 @@ export const tasks: Task[] = [
     completed: false,
     priority: "high",
     status: "in-progress",
+    planningBucket: "today",
   },
   {
     id: "task-cloud-architecture",
@@ -98,6 +99,7 @@ export const tasks: Task[] = [
     completed: false,
     priority: "high",
     status: "not-started",
+    planningBucket: "today",
   },
   {
     id: "task-deployment-pipeline",
@@ -106,6 +108,7 @@ export const tasks: Task[] = [
     completed: false,
     priority: "medium",
     status: "not-started",
+    planningBucket: "upcoming",
   },
   {
     id: "task-focus-review",
@@ -114,6 +117,7 @@ export const tasks: Task[] = [
     completed: false,
     priority: "medium",
     status: "not-started",
+    planningBucket: "today",
   },
 ];
 
