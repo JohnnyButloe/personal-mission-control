@@ -1,5 +1,6 @@
 import type { FocusSession, Goal, Project, Task } from "@/types/domain";
 import type { DashboardSummary } from "@/types/dashboard";
+import type { AnalyticsSummary } from "@/types/analytics";
 
 export const goals: Goal[] = [
   {
@@ -161,4 +162,27 @@ export const dashboardSummary: DashboardSummary = {
   sessionsThisWeek: 11,
   tasksCompletedThisWeek: 18,
   goalsAdvancedThisWeek: 3,
+};
+
+export const analyticsSummary: AnalyticsSummary = {
+  dailyFocus: [
+    { day: "Mon", minutes: 62 },
+    { day: "Tue", minutes: 78 },
+    { day: "Wed", minutes: 42 },
+    { day: "Thu", minutes: 91 },
+    { day: "Fri", minutes: 55 },
+    { day: "Sat", minutes: 104 },
+    { day: "Sun", minutes: 88 },
+  ],
+  focusByGoal: [
+    {
+      goalId: "goal-cloud-space-career",
+      minutes: 258,
+    },
+    {
+      goalId: "goal-deep-work",
+      minutes: 262,
+    },
+  ],
+  longestStreakDays: 17,
 };
